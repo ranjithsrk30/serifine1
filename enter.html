@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sericulture Website</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+    <style>
+        body{
+            background: url('https://img.freepik.com/premium-vector/network-connection-background-abstract-style_23-2148875738.jpg');
+          background-attachment: fixed;
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+        }
+        #login-username
+        {
+            background-color: aqua;
+        }
+        #login-password
+        {
+            background-color: aqua;
+        }
+        #signup-username
+        {
+            background-color: aquamarine;
+        }
+        #signup-password
+        {
+            background-color: aquamarine;
+        }
+        .container{
+            box-sizing: border-box;
+        }
+
+
+      </style>
+    <header>
+        
+    </header>
+    &nbsp; &nbsp;
+    &nbsp; &nbsp;
+    <center><h1 style="color: chocolate;">SERIFINE</h1></center>
+    <div class="container">
+        <section class="login-signup mt-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="text-center"style="color:red;">Login</h2>
+                    <form action="ind.html" method="post">
+                        <div class="form-group">
+                            <label for="login-username"style="color:yellow;">Username:</label>
+                            <input type="text" class="form-control" id="login-username" name="login-username" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="login-password"style="color:yellow;">Password:</label>
+                            <input type="password" class="form-control" id="login-password" name="login-password" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary"style="color:yellow;">Login</button>
+                    </form>
+                </div>
+
+                <div class="col-md-6">
+                    <h2 class="text-center"style="color:red;">Sign Up</h2>
+                    <form action="ind.html" method="post">
+                        <div class="form-group">
+                            <label for="signup-username"style="color:yellow;">Username:</label>
+                            <input type="text" class="form-control" id="signup-username" name="signup-username" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="signup-password"style="color:yellow;">Password:</label>
+                            <input type="password" class="form-control" id="signup-password" name="signup-password" required>
+                        </div>
+                        <button type="submit" class="btn btn-success"style="color:blue;">Sign Up</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <footer class="mt-5">
+        <marquee scrollamount="15" onmouseover="stop()" onmouseout="start()"><p style="color:rgb(254, 8, 8); ">&copy; 2023 SERIFINE. All rights reserved.</p></marquee>
+    </footer>
+</body>
+</html>

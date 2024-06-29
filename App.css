@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+img{
+    height: 50px;
+    width: 450px;
+    border-radius: 3px;
+}
+.container{
+    display: flex;
+}
+.card{
+    height: 500px;
+    margin: 50px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+    display: inline-block;
+}
+.intro{
+    height: 200px;
+    width: 350px;
+    box-sizing: border-box;
+    position: absolute;
+}
+.card:hover{
+    cursor: pointer;
+}

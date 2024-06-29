@@ -1,0 +1,103 @@
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DO YOU NEED HELP</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <head>
+        <style>
+            div{
+            background-color: black;
+              background-attachment: fixed;
+              background-repeat: no-repeat;
+              background-size: 100% 100%;
+              
+            }
+            #srk{
+                background-color:aqua ;
+            }
+            #rrr{
+                background-color: bisque;
+            }
+        
+            #submit{
+                background-color: gold;
+            }
+            
+          </style>
+    </head>
+    <style>
+    body{
+        background-image: url('images/gig.gif');
+         background-attachment: fixed;
+         background-repeat: no-repeat;
+         background-size: 100% 100%;
+       }
+       </style>
+    
+    <div class="container ">
+        <h1 style="color:rgb(143, 251, 2);">DO YOU NEED HELP!</h1>
+        <form method="post" action="http://localhost:8000/sign_up">
+            <fieldset>
+                <legend style="color:rgb(0, 251, 255);">Personal Information</legend>
+                <div class="form-group">
+                    <label for="name" style="color:rgb(255, 238, 0);">Name:</label>
+                    <input type="text" class="form-control" id="srk" name="user_name" placeholder="Enter Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="address" style="color:rgb(242, 255, 0);">Address:</label>
+                    <input type="text" class="form-control" id="srk"  name="user_address" placeholder="Enter your address">
+                </div>
+                <div class="form-group">
+                    <label for="email" style="color:rgb(255, 247, 0);">Email:</label>
+                    <input type="email" class="form-control" id="srk" name="user_email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone" style="color:rgb(255, 255, 0);">Phone number:</label>
+                    <input type="number" id="srk" class="form-control"  name="user_phone" placeholder="Enter contact Number">
+                </div>
+                <div class="form-group">
+                    <label style="color:rgb(229, 255, 0);">Your Status:</label>
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" name="option" value="yes">
+                        <label class="form-check-label"  style="color:rgb(225, 255, 0);">Yes I know About It</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" name="option" value="No">
+                        <label class="form-check-label"  style="color:rgb(242, 255, 0);">I Dont Know Anything</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" name="option" value="Not Practically Knowladged">
+                        <label class="form-check-label" style="color:rgb(251, 255, 0);">Not Practically Knowladged</label>
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend style="color:rgb(238, 255, 0);">Your Questions</legend>
+                <div class="form-group">
+                    <textarea class="form-control" id="rrr" name="user_msg" rows="8" placeholder="Enter your message"></textarea>
+                </div>
+            </fieldset>
+            <div class="form-group">
+                <label style="color:rgb(238, 255, 0);">How can we help you:</label><br>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="cc" name="feed1" value="HELP">
+                    <label class="form-check-label" for="feed1" style="color:rgb(207, 247, 7);">HAVE A GUIDE</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="cc" name="feed2" value="HELP">
+                    <label class="form-check-label" for="feed2" style="color:rgb(196, 247, 10);">PROVIDE SPECIFIC INFORMATION</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input"  name="feed3" value="HELP">
+                    <label class="form-check-label" for="feed3" style="color:rgb(195, 255, 0);">HAVE TO KNOW COMPLETELY ABOUT SERICULTURE</label>
+                </div>
+            </div>
+            <div class="form-group text-center">
+                <button type="submit" class="btn btn-primary mb-3" id="submit">Submit your Form</button><br/>
+                <a href="ind.html" class="btn btn-primary">BACK TO HOME</a>
+            </div>
+        </form>
+    </div>
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

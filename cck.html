@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sericulture Website</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f5f5f5;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #35495e;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            font-size: 36px;
+            margin: 0;
+            font-family: 'Pacifico', cursive;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #f8f3f3;
+            font-weight: bold;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .hero {
+            background-image: url('images/boi1.jpg');
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color: rgba(249, 78, 4, 0.8);
+            text-align: center;
+            padding: 80px 0;
+        }
+
+        .hero h2 {
+            font-size: 36px;
+            margin: 0;
+            color: #fff;
+            font-family: 'Pacifico', cursive;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin: 0;
+            color: #fff;
+            margin-top: 10px;
+        }
+
+        section h2 {
+            font-size: 28px;
+            margin: 0;
+            color: #e81212;
+            padding: 10px 0;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        section p {
+            font-size: 18px;
+            margin: 0;
+            color: #333;
+            margin-top: 10px;
+        }
+
+        footer {
+            background-color: #35495e;
+            color: #f7f5f5;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 16px;
+        }
+
+        /* Additional Styling */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .center-text {
+            text-align: center;
+        }
+
+        /* Add Google Fonts */
+        @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400&display=swap');
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SERIFINE</h1>
+        <nav>
+            <ul>
+                <li><a href="crops.html">Crops</a></li>
+                <li><a href="guide.html">Equipments</a></li>
+                <li><a href="silkworm.html">Silkworm</a></li>
+                <li><a href="cocoon.html">Cocoon</a></li>
+                <li><a href="contact.html">Need Help</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Welcome to the World of Sericulture</h2>
+            <marquee scrollamount="10" onmouseover="stop()" onmouseout="start()"><p>Explore the art and science of silk production.</p></marquee>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Here we provide comprehensive information about sericulture.</p>
+        </div>
+    </section>
+
+    <section class="production">
+        <div class="container">
+            <h2>Silk Production</h2>
+            <p>Learn how silk is produced from silkworms.</p>
+        </div>
+    </section>
+
+    <section class="techniques">
+        <div class="container">
+            <h2>Sericulture Techniques</h2>
+            <p>Discover various techniques for successful sericulture.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 SERIFINE. All rights reserved.</p>
+    </footer>
+</body>
+</html>
